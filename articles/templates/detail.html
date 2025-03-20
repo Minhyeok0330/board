@@ -14,4 +14,6 @@
     </div>
 </div>
 
+<a class="btn btn-danger mt-2" href="{% url 'articles:delete' article.id %}" role="button">Delete</a>
+<a href="{%  url 'articles:edit' article.id %}" class="btn btn-info mt-2">Update</a>
 {% endblock %}
